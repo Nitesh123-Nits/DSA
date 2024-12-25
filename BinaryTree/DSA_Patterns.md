@@ -2,7 +2,7 @@
 ## This pattern is useful for problems involving contiguous subarrays or substrings.
 
 ### Problem Example: Find the maximum sum of a subarray of size k in an array.
-
+``` java
 public class SlidingWindow {
     public int maxSum(int[] arr, int k) {
         int n = arr.length;
